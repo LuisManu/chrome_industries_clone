@@ -12,3 +12,5 @@ Created using Jquery, Bootstrap, HTML5, CSS3
 	chrome_clone.html
 	
 	All css and javascript is in the HTML doc, and content served from their own cdn.
+
+View the page I used as design at chromeindustries.com

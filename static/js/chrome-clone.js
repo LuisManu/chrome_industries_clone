@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // $( document ).ready(function() {
 //     $('.glyphicon-remove').click(function(){
 //             $('#banner').addClass('hidden-xs hidden-sm hidden-md hidden-lg');
@@ -60,6 +61,8 @@
 //         }, 1000);
 //     });
 // });
+=======
+>>>>>>> origin/master
 $( document ).ready(function() {
         $('.glyphicon-remove').click(function(){
                 $('#banner').addClass('hidden-xs hidden-sm hidden-md hidden-lg');
@@ -121,4 +124,8 @@ $( document ).ready(function() {
                 scrollTop: 0
             }, 1000);
         });
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> origin/master

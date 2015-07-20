@@ -15,7 +15,7 @@
     text-align: center;
     padding-top: 5px;
     font-size: 15px;
-    font-size: 1vw;
+    font-size: 1.2vw;
 }
 #banner a:hover {
     color: #c7c2bc;
@@ -28,12 +28,10 @@
 .hook-tag {
     padding-left: 165px;
     padding-top: 45px;
-
 }
 .header-info ul {
     float: right;
     padding-top: 15px;
-
 }
 .header-info li {
     margin-left: 10px;
@@ -50,8 +48,7 @@
     height: 55px;
 }
 .sm-nav-btn {
-    padding: 1px 1px 0 0; 
-
+    padding: 1px; 
 }
 .btn_link, .btn_link:hover {
     background-color: #373737;
@@ -137,6 +134,22 @@ li {
     border: 0;
     border-radius: 0;
     margin: 0;
+}
+.nav-item {
+    clear: both;
+    background-color: #737373;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+}
+.drp_ul {
+    padding: 0;
+}
+.menu-btn {
+    cursor: pointer;
 }
 img {
    vertical-align: 0; 

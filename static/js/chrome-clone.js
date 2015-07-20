@@ -52,11 +52,66 @@ $( document ).ready(function() {
             $('#follow-chrome-content').addClass('hidden-xs hidden-sm');
         }
     });
-    
     $(".glyphicon-arrow-up").click(function(e) {
         e.preventDefault();
         $('html, body').animate({
             scrollTop: 0
         }, 1000);
+    });
+
+
+// Mobile site navbar Jquery
+
+
+    $('.menu-btn').click(function() {
+        $(this).toggleClass('menu-btn-clk');
+    });
+    $('.mobile-menu').click(function() {
+        $('.mobile-menu-menu').toggleClass('hidden');
+        if ($('.mobile-menu-search').is(':visible')) {
+            $('.mobile-menu-search').addClass('hidden');
+        }
+        if ($('.mobile-menu-account').is(':visible')) {
+            $('.mobile-menu-account').addClass('hidden');
+        }
+        if ($('.mobile-menu-cart').is(':visible')) {
+            $('.mobile-menu-cart').addClass('hidden');
+        }
+    });
+    $('.mobile-search').click(function() {
+        $('.mobile-menu-search').toggleClass('hidden');
+        if ($('.mobile-menu-menu').is(':visible')) {
+            $('.mobile-menu-menu').addClass('hidden');
+        }
+        if ($('.mobile-menu-account').is(':visible')) {
+            $('.mobile-menu-account').addClass('hidden');
+        }
+        if ($('.mobile-menu-cart').is(':visible')) {
+            $('.mobile-menu-cart').addClass('hidden');
+        }
+    });
+    $('.mobile-account').click(function() {
+        $('.mobile-menu-account').toggleClass('hidden');
+        if ($('.mobile-menu-menu').is(':visible')) {
+            $('.mobile-menu-menu').addClass('hidden'); 
+        }
+        if ($('.mobile-menu-search').is(':visible')) {
+            $('.mobile-menu-search').addClass('hidden');
+        }
+        if ($('.mobile-menu-cart').is(':visible')) {
+            $('.mobile-menu-cart').addClass('hidden');
+        }
+    });
+    $('.mobile-cart').click(function() {
+        $('.mobile-menu-cart').toggleClass('hidden');
+        if ($('.mobile-menu-menu').is(':visible')) {
+            $('.mobile-menu-menu').addClass('hidden');
+        }
+        if ($('.mobile-menu-search').is(':visible')) {
+            $('.mobile-menu-search').addClass('hidden');
+        }
+        if ($('.mobile-menu-account').is(':visible')) {
+            $('.mobile-menu-account').addClass('hidden');
+        }
     });
 });
